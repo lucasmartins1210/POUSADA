@@ -1,0 +1,260 @@
+/*estilos globais*/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*seção topo*/
+.secao-topo{
+    display: flex;
+    justify-content: center;
+}
+.container-topo{
+    padding: 20px 0;
+    width: 1024px;
+    max-width: 1024px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.logo-topo a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+}
+.logo-topo span{
+    color: rgb(104, 184, 216);
+}
+.container-links-topo a{
+    font-size:20px;
+    text-decoration:none;
+    color: gray;
+}
+.container-links-topo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-basis:250px;
+
+}
+/*seção banner*/
+
+.secao-banner{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../assets/img-fundo.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-titulo-banner{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(40, 126, 97, 0.76);
+    opacity: 90%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    border: 1px solid #ffffffbd;
+    border-radius: 5px;
+}
+.container-titulo-banner h1{
+    font-size:56px;
+}
+.container-titulo-banner h2{
+    font-weight: normal;
+}
+
+/*seção seja bem vindo*/
+.secao-sejabem-vindo, .secao-rotas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    color: rgb(100, 99, 99);
+}
+.container-texto-bem-vindo{
+    width:500px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: rgb(100, 99, 99);
+}
+.container-quartos-links{
+    
+    max-width: 1024px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    gap:20px;
+    
+}
+.container-texto-bem-vindo h3{
+    font-size:36px;
+    font-weight:normal;
+    
+}
+.card{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:10px;
+    flex:1 1 320px;
+
+}
+.container-img-quatos{
+    width:320px;
+}
+.card a{
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+
+}
+.card img{
+    width: 100%;
+}
+.div-linha{
+    background-color: rgba(40, 126, 97, 0.76);
+    height: 2px;
+    width:100%;
+}
+/*secao-rotas*/
+.container-texto-rotas{
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    padding: 10px;
+}
+.container-texto-rotas h3{
+    font-size: 36px;
+    font-weight:normal;
+}
+ iframe{
+    width: 100%;
+    height:350px ;
+    
+}
+/*secao sobre*/
+.container-cards-sobre{
+    max-width: 1024px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:30px;
+    color: rgb(100, 99, 99);
+}
+
+
+.card-sobre{
+    flex: 1 0 350px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  text-align: left;
+  background-color: #f1f1f1;
+   
+}
+.container-texto-sobre{
+    height: 150px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    color: rgb(100, 99, 99);
+}
+.container-texto-sobre h3{
+    font-size: 36px;
+    font-weight:normal;
+    
+}
+.container-texto-sobre-card{
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    
+}
+.container-img-sobre{
+    width: 30%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+
+   
+}
+.container-img-sobre img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*secao rodaape*/
+
+.rodape{
+    background-color: rgb(33, 129, 97);
+    padding:25px;
+}
+.container-contatos{
+    margin:0 auto;
+    max-width: 1024px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:30px;
+
+}
+.container-contatos h3{
+    max-width:180px;
+    font-size: 22px;
+}
+.container-contatos a{
+    text-decoration:none;
+    color: #fff;
+}
+.endereco, .telefone, .calendario{
+    max-width:250px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.container-logo-rodape img{
+    width: 40px;
+    height: 40px;
+}
+
+.Copyright{
+    color: #fff;
+    margin:0 auto;
+    max-width: 1024px;
+    padding: 10px;
+    margin-top:15px;
+    border-top: 2px solid  rgba(26, 102, 77, 0.801);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
