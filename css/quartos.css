@@ -1,0 +1,169 @@
+/*estilos globais*/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.limita-largura{
+    max-width: 1024px;
+    margin:0 auto ;
+}
+.container-quarto-solteiro, 
+.container-quarto-, 
+.container-quarto-familia{
+    text-align: center;
+}
+
+/*seção topo*/
+.secao-topo{
+    display: flex;
+    justify-content: center;
+}
+.container-topo{
+    padding: 20px 0;
+    width: 1024px;
+    max-width: 1024px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.logo-topo a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(100, 99, 99);
+}
+.logo-topo span{
+    color: rgb(104, 184, 216);
+}
+.container-links-topo a{
+    font-size:20px;
+    text-decoration:none;
+    color: gray;
+}
+.container-links-topo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-basis:250px;
+
+}
+/*seção banner pagina quartos */
+.banner-pagina-quartos{
+    width: 100%;
+    height: 150px;
+    background-image:url('../assets/img-fundo.jpg');
+    background-size:cover;
+    background-position:top;
+
+}
+
+
+/*secao-principal*/
+
+.container-texto-quartos{
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    padding: 10px;
+}
+.container-texto-quartos h2{
+    font-size: 36px;
+    font-weight:normal;
+    color: rgb(100, 99, 99);
+}
+.container-texto-quartos p{
+    color: rgb(100, 99, 99);
+}
+
+.container-cards-img{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom:80px ;
+}
+.card{
+    flex: 1 0 330px;
+    height: 200px;
+}
+.card img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-informacoes-sobre-quartos{
+    color: rgb(100, 99, 99);
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    
+}
+.lista-informacoes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.lista-informacoes li {
+    width: 230px;
+    text-align: left;
+}
+
+
+/*secao rodaape*/
+
+.rodape{
+    background-color: rgb(33, 129, 97);
+    padding:25px;
+}
+.container-contatos{
+    margin:0 auto;
+    max-width: 1024px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:30px;
+
+}
+.container-contatos h3{
+    max-width:180px;
+    font-size: 22px;
+}
+.container-contatos a{
+    text-decoration:none;
+    color: #fff;
+}
+.endereco, .telefone, .calendario{
+    max-width:250px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.container-logo-rodape img{
+    width: 40px;
+    height: 40px;
+}
+
+.Copyright{
+    color: #fff;
+    margin:0 auto;
+    max-width: 1024px;
+    padding: 10px;
+    margin-top:15px;
+    border-top: 2px solid  rgba(26, 102, 77, 0.801);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
